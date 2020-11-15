@@ -35,3 +35,18 @@
     height: 200px;
     width: 200px;
 }
+
+.boxsizing{
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img3{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 5px solid;
+    box-sizing: border-box;
+}
