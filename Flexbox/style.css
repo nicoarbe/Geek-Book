@@ -1,0 +1,31 @@
+body{
+    display: flex;
+}
+
+.container1{
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    display: flex;
+    margin: 5px;
+}
+
+.container2{
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    margin: 5px;
+}
+
+.element1{
+    background-color: plum;
+    border: 1px solid;
+    border-color: purple;
+    flex-direction: column;
+}
+
+.element2{
+    background-color: plum;
+    border: 1px solid;
+    border-color: purple;
+}
