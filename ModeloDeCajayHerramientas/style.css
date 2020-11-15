@@ -1,0 +1,27 @@
+.block{
+    background-color: mediumaquamarine;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+.inline{
+    background-color: gray;
+    display: inline;
+    height: 100px;
+    width: 100px;
+}
+
+.inline-block{
+    background-color: palevioletred;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.none{
+    background-color: lightgreen;
+    display: none;
+    height: 100px;
+    width: 100px;
+}
