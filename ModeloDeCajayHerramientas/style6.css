@@ -1,0 +1,17 @@
+body {
+    margin: 3em 2em;
+  }
+  .container {
+    border: 1px solid deeppink;
+    margin: 1em;
+    width: 300px;
+  }
+  .container--mini {
+    width: 70px;
+    overflow: auto;
+  }
+  .container--img {
+    width: 150px;
+    height: 150px;
+    overflow: auto;
+  }
