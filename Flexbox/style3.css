@@ -1,0 +1,14 @@
+.menu{
+    height: 100px;
+    border: 1px solid;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.opciones{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
