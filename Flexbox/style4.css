@@ -1,0 +1,27 @@
+.container{
+    border: 2px solid;
+    border-color: purple;
+    display: flex;
+}
+
+.container2{
+    display: block;
+}
+
+.destacada{
+    width: fit-content;
+}
+
+.container3{
+    
+}
+
+.destacada{
+    border: 2px solid;
+    border-color: purple;
+}
+
+.columna{
+    border: 2px solid;
+    border-color: purple;
+}
