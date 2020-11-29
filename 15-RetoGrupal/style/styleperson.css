@@ -1,0 +1,149 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.fondo_color_menu {
+    background-color: hsl(171, 100%, 29%);
+  }
+  
+  .fondo3{
+  background-image: url(./../img/);
+  background-position: center;
+  background-size: cover;
+  
+  }
+  .header_menu{
+    height: 60px;
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 16px;    
+  }
+  .menu {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .menu2 ul li{
+    display: inline;
+  }
+  .fondo_header{
+    margin-top: 0px;
+    height: 490px;
+   
+  }
+  section {
+   margin: 60px;
+  }
+  .tild_texto {
+  color: rgb(0, 182, 182);
+  }
+  .texto_web {
+    width: 400px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .fondo_texto {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px 30px;
+    position: relative;
+    top: 84%;
+  }
+  
+  @media screen and (max-width:768px){
+   .color_menu1 {
+  
+      background-color: rgb(0, 182, 182);
+    }
+    .fondo_header {
+      max-height: 460px;
+    }
+    .fondo_texto {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      top: 90%
+    }
+
+    .fondo_color_menu{
+        display: flex;
+    }
+  }
+  
+  @media screen and (max-width:320px){
+    
+    .min-todo{
+      width: 320px;
+    }
+    .fondo_header {
+      max-height: 421px;
+  
+    }
+    .fondo_texto {
+     margin-bottom: 200px;
+      
+    }
+  }
+
+.contenecard{
+    width: 70%;
+    justify-items: center;
+}
+
+.title{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.subtitle{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.content{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#contenedor-2{
+    border-top: #B8B8B9 solid 1px;
+    border-bottom: #B8B8B9 solid 1px;
+}
+
+#nom-group{
+    margin-top: 30px;
+    color: #B8B8B9 100%;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#text-footer > li {
+    margin-top: 15px;
+    color: #54585A 100%;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#text-footer > li > a {
+    color: gray;
+    
+}
+
+#text-footer{
+    margin-top: 25px;
+    margin-bottom: 60px;
+
+}
